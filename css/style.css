@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    font-family: Roboto;
+    overflow-x: hidden;
+}
+.clear{
+    clear: both;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+.center{
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    padding: 0 0.5%;
+    background-color: #212343;
+}
+
+.header img{
+    margin: 18px 2%;
+}
+
+.back-img{
+    width: 100%;
+    height: auto;
+    background-image: url(../arquivos-projeto-1/images/header_bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.info-box{
+    float: left;
+    height: 40%;
+    width: 40%;
+    max-width: 480px;
+    padding: 20px 5px;
+    margin: 40px 0 0 0;
+    color: white;
+    border-radius: 10px;
+    background-color: #212343a8;
+}
+
+.info-box h4{
+    text-align: left;
+    font-size: 28px;
+    font-weight: 250;
+    margin-bottom: 10px;
+}
+
+.info-box p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.info-box ul li{
+    line-height: 50px;
+    list-style-position: inside;
+}
+
+.form{
+    float: right;
+    width: 60%;
+    max-width: 360px;
+    padding: 4px 0.8%; 
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 8px solid rgba(0, 0, 0, 0.308)
+}
+
+.form div{
+    width: 100%;
+    margin: 5% 0;
+}
+
+.title{
+    margin-bottom: 3%;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 3.5% 2%;
+    margin: 1% 0 3% 0;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.btn{
+    text-align: center
+}
+
+input[type=submit]{
+    width: 50%;
+    margin-top: 7%;
+    padding: 3% 0;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #212343;
+    color: white;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: #141629f1;
+}
+
+.about-box{
+    width: 100%;
+    background-color: rgb(197, 197, 197);
+    padding: 40px 0;
+    text-align: center;
+    line-height: 25px;
+}
+
+.about-box h2{
+    margin: 36px 0 10px 0;
+}
+
+.about-box p{
+    display: inline-block;
+    width: 75%;
+    text-align: justify;
+}
+
+.icon{
+    height: 40px;
+    width: 40px;
+    margin-left: -20px;
+    background-image: url(../arquivos-projeto-1/images/arrow.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    top: 62px;
+    left: 50%;
+}
+
+.section{
+    padding: 2% 2%;
+    text-align: center;
+}
+
+.section h2{
+    text-align: center;
+    margin: 6% 0;
+    color: #212343;
+}
+
+.content-box{
+    width: 33.33%;
+    display: inline-block;
+    margin-right: -4px;
+    margin-bottom: -4px;
+}
+
+.content-box img{
+    margin-bottom: 6%;
+}
+
+.content h3, p{
+    margin-bottom: 3%;
+}
+
+.content p{
+    display: inline-block;
+    width: 65%;
+    text-align: justify;
+    letter-spacing: -1px;
+    margin-bottom: 10%;
+}
+
+.footer{
+    width: 100%;
+    padding: 0.3% 0;
+    border-top: 3px solid grey;
+    background-color: rgb(197, 197, 197);
+}
+
+.footer p{
+    text-align: center;
+    margin: 2%;
+    font-weight: 600;
+    color:#212343;
+}
+
+@media screen and (max-width:888px){
+
+    .center{
+        text-align: center;
+    }
+
+    .header{
+        text-align: center;
+    }
+
+    .form{
+        text-align: center;
+    }
+
+    .info-box h4, ul, li{
+        text-align: center;
+    }
+
+    .info-box{
+        float: none;
+        display: inline-block;
+        width: 100%;
+        max-width: 450px;
+        margin-bottom: 20px;
+    }
+
+    .form{
+        float: none;
+        display: inline-block;
+        width: 100%;
+        max-width: 450px;
+        margin-bottom: 20px;
+}
+}
+
+@media screen and (max-width: 858px){
+    .content-box{
+        width: 100%;
+        display: inline-block;
+        margin-right: -4px;
+        margin-bottom: -4px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
